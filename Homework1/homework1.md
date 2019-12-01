@@ -14,7 +14,7 @@ A limit order is a type of order to purchase or sell a security at a specified p
 ### How to Solve the Problem？：
 
 ***Workflow：***
-![](https://github.com/perfectweather/PHBS_BigData_2019/blob/master/Homework1/workflow.jpg)
+![](https://raw.githubusercontent.com/perfectweather/PHBS_BigData_2019/master/Homework1/workflow.jpg)
 
 ***Explain：***
 
