@@ -14,7 +14,7 @@ A limit order is a type of order to purchase or sell a security at a specified p
 ### How to Solve the Problem？：
 
 ***Workflow：***
-
+![Image text]()
 ***Explain：***
 
 First, the order information data and the stock's limit order book data are collected, and the data is processed into features that can be used as input variables. These features include average of highest bid price and lowest small price, bid ask spread, standard deviation, volatility, the misbalance of bid ask volume, the number of remaining shares of trader, etc.
