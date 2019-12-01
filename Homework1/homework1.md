@@ -1,7 +1,7 @@
-#Homework 1
+# Homework 1
 
-##Limit Order Book High-Frequency Trade Execution
-###What is the Problem：
+## Limit Order Book High-Frequency Trade Execution
+### What is the Problem：
 
 A limit order is a type of order to purchase or sell a security at a specified price or better. Limit order trading problem is about when to sell (buy) stocks and how many stocks should be sold (bought) when the trader holds the long (short) stocks. This problem can not only be obtained through the market intuition, the understanding of enterprise information, reasoning and judgment of trader but also through the quantitative method. Quantitative method can make better use of historical information to make decisions. Here I change this problem into a big data problem and make decisions through quantitative methods. First of all, I will show that the problem is a big data problem from three aspects：
 
@@ -11,9 +11,10 @@ A limit order is a type of order to purchase or sell a security at a specified p
 
 ***velocity:*** The data update speed is fast, and the database needs to be updated frequently. In the trading, when the environment changes, the trader must make a decision immediately, so every minute the trader must make a judgment based on the current latest information. If there is a delay, the information becomes invalid and the strategy may be useless
 
-###How to Solve the Problem？：
+### How to Solve the Problem？：
 
 ***Workflow：***
+
 ***Explain：***
 
 First, the order information data and the stock's limit order book data are collected, and the data is processed into features that can be used as input variables. These features include average of highest bid price and lowest small price, bid ask spread, standard deviation, volatility, the misbalance of bid ask volume, the number of remaining shares of trader, etc.
@@ -24,7 +25,7 @@ Third, take a part of data as the test set. When the reward yield is higher than
 
 Fourth, the process of using strategy to trade is also the process of constantly generating new data. Every fixed period of time, the data set should be updated, and the strategy should be updated.
 
-##Databases：
+## Databases：
 
 I chose KDB + as the database. KDB + is a time series database, its single integrated platform makes it very effective to analyze super large datasets. KBD + supports distributed expansion and it has low latency. KDB + is columnar storage and has many statistical calculation methods
 
